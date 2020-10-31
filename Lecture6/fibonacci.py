@@ -4,7 +4,7 @@ def fibonacci(n):
     '''Returns the Fibonacci number of order n.'''
     if n > 1:
         return fibonacci(n - 1) + fibonacci(n - 2)
-    elif n is 1:
+    elif n == 1:
         return 1
     else:
         return 0
@@ -16,7 +16,7 @@ def fibonacci_iteration(n):
         while n > 1:
             _, F, n = F, F + _, n - 1
         return F
-    elif n is 1:
+    elif n == 1:
         return 1
     else:
         return 0
